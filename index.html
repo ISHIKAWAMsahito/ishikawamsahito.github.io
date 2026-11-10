@@ -78,11 +78,11 @@
         <span data-lang-content="ja">開発実績</span>
         <span data-lang-content="en">Selected Work</span>
       </h2>
-      <span class="index">01 — 03</span>
+      <span class="index">01 — 04</span>
     </div>
     <div class="projects">
 
-      <!-- Card 1: ストレスきろく (リリース済み) -->
+      <!-- Card 1: ストレスきろく -->
       <div class="card">
         <div class="card-media">
           <img src="assets/stress_log_promo_X.png" alt="ストレスきろく プロモーション画像">
@@ -116,7 +116,7 @@
         </div>
       </div>
 
-      <!-- Card 2: 実務電卓 (クローズドテスト段階) -->
+      <!-- Card 2: 実務電卓 -->
       <div class="card">
         <div class="card-media">
           <img src="assets/calculator.png" alt="実務電卓 スクリーンショット">
@@ -131,10 +131,44 @@
           <h3 data-lang-content="en">Practical Calculator</h3>
 
           <p data-lang-content="ja">
-            クローズドテスト中
+            簿記・税理士試験等の受験生や実務向けに設計されたカシオ配列電卓アプリ。ロールオーバー入力の操作感と視認性にこだわり、実務電卓の打鍵体験をスマートフォン上で再現しています。
           </p>
           <p data-lang-content="en">
-            A Casio-layout, tactile-feel calculator app designed for accounting and tax exam candidates. Optimized for reliable key roll-over handling, undergoing rapid iteration and bug triage directly from tester feedback.
+            A Casio-layout calculator app crafted for accounting and practical tax examination workflows. Features tactile key responses, roll-over handling, and optimized layout design.
+          </p>
+
+          <div class="card-footer">
+            <a class="btn" href="https://play.google.com/store/apps/details?id=com.ishikawamasahito.business_calculator" target="_blank" rel="noopener">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M3 20.5v-17c0-.6.32-1.15.84-1.44L14 8l-4.68 4.68L3 20.5Z"/><path d="M14 8l3.5-2 3.16 1.83a1.5 1.5 0 0 1 0 2.34L17.5 12 14 10l-1-1 1-1Z" opacity=".6"/><path d="M14 8 3 20.5 14.68 13.32 14 8Z" opacity=".8"/></svg>
+              Google Play
+            </a>
+            <span class="badge">
+              <span data-lang-content="ja">公開中</span>
+              <span data-lang-content="en">Live on Play Store</span>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: 拡大鏡アプリ (クローズドテスト中) -->
+      <div class="card">
+        <div class="card-media">
+  <img src="assets/ruper.jpg" alt="拡大鏡アプリ スクリーンショット">
+</div>
+        <div class="card-body">
+          <div class="card-kicker">
+            <span data-lang-content="ja">モバイル · Flutter</span>
+            <span data-lang-content="en">Mobile · Flutter</span>
+          </div>
+
+          <h3 data-lang-content="ja">拡大鏡 (Ruper)</h3>
+          <h3 data-lang-content="en">Ruper — Magnifier Tool</h3>
+
+          <p data-lang-content="ja">
+            カメラを活用して手元の細かな文字や対象物を鮮明に拡大できる実用ユーティリティ。直感的な操作性と低遅延な表示を両立し、Google Playでの正式公開に向けたクローズドテストを実施しています。
+          </p>
+          <p data-lang-content="en">
+            A lightweight, low-latency magnifier tool app designed for reading fine text and inspecting small details. Currently undergoing closed testing ahead of production release on Google Play.
           </p>
 
           <div class="card-footer">
@@ -144,14 +178,14 @@
               <span data-lang-content="en">Tester Info (X)</span>
             </a>
             <span class="badge warning">
-              <span data-lang-content="ja">公開中</span>
+              <span data-lang-content="ja">クローズドテスト中</span>
               <span data-lang-content="en">Closed Testing</span>
             </span>
           </div>
         </div>
       </div>
 
-      <!-- Card 3: RAG (学内試験運用) -->
+      <!-- Card 4: AIチャットボットシステム (RAG) -->
       <div class="card">
         <div class="card-media">
           <img src="assets/chatbot.png" alt="Campus AI Concierge interface">
@@ -166,16 +200,16 @@
           <h3 data-lang-content="en">Campus AI Concierge System (RAG)</h3>
 
           <p data-lang-content="ja">
-            FastAPI、Supabase (pgvector)、LangSmithで構築したRAGシステム。大学情報を基に回答。試験運用を行い、実際の問い合わせログを元に検索・回答精度をチューニングしています。
+            FastAPI、Supabase (pgvector)、LangSmithで構築した学内向けRAGシステム。規程集や履修要覧などの大学情報を正確に検索・回答。2026年10月末までの試験運用を完了し、蓄積された実際の問い合わせログをもとに検索・回答精度のチューニングと検証を行っています。
           </p>
           <p data-lang-content="en">
-            An enterprise-grade RAG system built on FastAPI, Supabase (pgvector), and LangSmith, indexing thousands of pages of academic regulations. Currently in pilot testing across campus events and support desks, continuously refining retrieval accuracy from real query logs.
+            An enterprise-grade RAG system built on FastAPI, Supabase (pgvector), and LangSmith, indexing thousands of pages of academic regulations. Completed scheduled campus pilot testing on October 31, 2026, and actively optimizing retrieval accuracy using real-world query logs.
           </p>
 
           <div class="card-footer">
             <span class="badge">
-              <span data-lang-content="ja">試験運用中</span>
-              <span data-lang-content="en">Pilot Testing</span>
+              <span data-lang-content="ja">試験運用終了</span>
+              <span data-lang-content="en">Pilot Ended</span>
             </span>
             <span class="badge">pgvector · LangSmith</span>
           </div>
@@ -201,21 +235,37 @@
     </div>
     <ul class="log-list">
       <li class="log-item">
+        <span class="log-date">2026-11-01</span>
+        <span class="log-text">
+          <span data-lang-content="ja"><strong>拡大鏡アプリ（Ruper）：クローズドテスト開始</strong>：Google Playでの製品版公開に向け、クローズドテストを開始。</span>
+          <span data-lang-content="en"><strong>Ruper Magnifier: Closed Testing Launched</strong>: Started closed beta testing cycle preparing for Google Play release.</span>
+        </span>
+      </li>
+      <li class="log-item">
+        <span class="log-date">2026-10-31</span>
+        <span class="log-text">
+          <span data-lang-content="ja"><strong>AIチャットボットシステム：学内試験運用の終了</strong>：予定していた学内試験運用を完了。蓄積された問い合わせログの集計および検索精度の最終検証フェーズへ移行。</span>
+          <span data-lang-content="en"><strong>Campus AI RAG: Pilot Testing Concluded</strong>: Successfully concluded campus trial period. Transitioned to log analysis and retrieval optimization.</span>
+        </span>
+      </li>
+      <li class="log-item">
         <span class="log-date">2026-10-05</span>
         <span class="log-text">
-          <span data-lang-content="ja"><strong>実務電卓製品版公開</strong>：実務電卓の製品版が正式に公開されました。</span>
-          <span data-lang-content="en"><strong>Practical Calculator: Product Launch</strong>: The product version of the Practical Calculator has been officially launched.</span>
+          <span data-lang-content="ja"><strong>実務電卓：製品版公開</strong>：実務電卓の製品版をGoogle Playにて正式公開。</span>
+          <span data-lang-content="en"><strong>Practical Calculator: Product Launch</strong>: The production version has been officially launched on Google Play.</span>
         </span>
+      </li>
+      <li class="log-item">
         <span class="log-date">2026-09-18</span>
         <span class="log-text">
-          <span data-lang-content="ja"><strong>RAGシステム：回答精度の改善中</strong>：試験運用の問い合わせログを分析し、プロンプトとチャンキング戦略のチューニングを実施。</span>
-          <span data-lang-content="en"><strong>Campus AI RAG: Ongoing Optimization</strong>: Refining prompt templates and retrieval chunking strategies based on pilot query logs.</span>
+          <span data-lang-content="ja"><strong>RAGシステム：回答精度の改善</strong>：試験運用の問い合わせログを分析し、プロンプトとチャンキング戦略のチューニングを実施。</span>
+          <span data-lang-content="en"><strong>Campus AI RAG: Ongoing Optimization</strong>: Refined prompt templates and retrieval chunking strategies based on pilot query logs.</span>
         </span>
       </li>
       <li class="log-item">
         <span class="log-date">2026-09-12</span>
         <span class="log-text">
-          <span data-lang-content="ja"><strong>実務電卓：クローズドテスト開始</strong>：クローズドテストを開始し、フィードバックに基づいて修正を実施。</span>
+          <span data-lang-content="ja"><strong>実務電卓：クローズドテスト開始</strong>：クローズドテストを開始し、フィードバックに基づいてロールオーバー等の修正を実施。</span>
           <span data-lang-content="en"><strong>Practical Calculator: Closed Beta Launch</strong>: Hotfixed key roll-over issue based on initial tester feedback.</span>
         </span>
       </li>
